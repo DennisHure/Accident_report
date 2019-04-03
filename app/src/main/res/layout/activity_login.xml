@@ -8,5 +8,39 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:width="250dp"
+        android:layout_marginLeft="75dp"
+        android:hint="username"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:width="250dp"
+        android:layout_marginLeft="75dp"
+        android:hint="password"
+        android:textAlignment="center"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="135dp"
+        android:text="Log me in"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Register here!"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:onClick="register"
+        />
 </RelativeLayout>

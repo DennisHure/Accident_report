@@ -11,16 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Accident-Report" />
+        app:srcCompat="@drawable/accident" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        app:srcCompat="@drawable/Accident-Report"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[8]" />
+
 </RelativeLayout>
