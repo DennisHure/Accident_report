@@ -12,7 +12,7 @@ public class home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
     public void run() {
-        Intent intent = new Intent (home.this, LoginActivity.class);
+        Intent intent = new Intent (home.this, login.class);
         startActivity(intent);
         finish();
     }
